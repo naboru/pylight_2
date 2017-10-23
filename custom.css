@@ -1,0 +1,10 @@
+body {
+  font-size: 23px;
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 3ex;
+  max-width: 3ex;
+  width: 3ex;
+  visibility: hidden;
+}
